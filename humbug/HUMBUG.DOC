@@ -1,0 +1,83 @@
+
+ °°°Ü   °°°Ü  °°°Ü   °°°Ü   °°°°°°°°°°°Ü   °°°°°°°Ü   °°°Ü   °°°Ü  °°°°°°°°°Ü
+ °°°Û   °°°Û  °°°Û   °°°Û  °°°°°°°°°°°°°Ü  °°°°°°°°Ü  °°°Û   °°°Û  °°°°°°°°°Û
+ °°°Û   °°°Û  °°°Û   °°°Û  °°°Ûß°°°Ûß°°°Û  °°°Ûßß°°Û  °°°Û   °°°Û  °°°Ûßß°°°Û
+ °°°°°°°°°°Û  °°°Û   °°°Û  °°°Û °°°Û °°°Û  °°°°°°°Ûß  °°°Û   °°°Û  °°°Û   ßßß
+ °°°°°°°°°°Û  °°°Û   °°°Û  °°°Û °°°Û °°°Û  °°°°°°°°Ü  °°°Û   °°°Û  °°°Û °°°°Ü
+ °°°Ûßßß°°°Û  °°°Û   °°°Û  °°°Û  ßßß °°°Û  °°°Ûßß°°Û  °°°Û   °°°Û  °°°Û  °°°Û
+ °°°Û   °°°Û  °°°°°°°°°°Û  °°°Û      °°°Û  °°°°°°°°Û  °°°°°°°°°°Û  °°°°°°°°°Û
+ °°°Û   °°°Û   °°°°°°°°Ûß  °°°Û      °°°Û  °°°°°°°Ûß   °°°°°°°°Ûß  °°°°°°°°°Û
+  ßßß    ßßß    ßßßßßßßß    ßßß       ßßß   ßßßßßßß     ßßßßßßßß    ßßßßßßßßß
+                                 Version 5.0
+                              By Graham Cluley.
+ °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°Ü
+ °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°Û
+  ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+   This was a shareware program.  In May 1997 I decided to place it in
+   the public domain as work commitments mean I can no longer find
+   the time to sell or support it.  So, as from now it's public domain.
+   :)
+
+   One of the consequences of that decision is that you can now get
+   hold of the online hints for free.  You should find that typing
+   HINT at the command-prompt inside Humbug gives you either a subtle
+   or sledge-hammer clue.  If not, you can download the hint-enabled
+   version from my website:  http://members.aol.com/gcluley
+
+   ----------------------------------------------------------------------
+
+   An adventure such as HUMBUG will allow you to enter a wide variety of
+   commands such as GO NORTH, ASK GRANDAD ABOUT THE WUMPUS, and GET
+   EVERYTHING IN THE DUSTBIN APART FROM THE DWEEZIL.
+
+   All of these commands are entered at the  >  prompt.
+
+   A wide vocabulary is understood by HUMBUG. Obviously if I were to list
+   all the words understood by the game a lot of the fun would disappear,
+   but here are a few that might come in useful:
+
+   SAY, HIT, ATTACK, GO, SHOUT, ASK, LIST, INVENTORY,EXAMINE, LOOK, HINT,
+   SCORE, GIVE, PULL, PUSH, HELP, WEAR, GET, DROP, PUT, CLIMB, EAT, SAVE,
+   LOAD, RAMSAVE, RAMLOAD, QUIT, and so on.
+
+   The LIST and INVENTORY commands will tell you which objects you are
+   carrying. Other useful keys to remember are the up and down arrows.
+
+   The up and down arrows on the keyboard scroll through the last 10
+   commands you have entered. This can be very helpful if you are a
+   slower typist.
+
+   At any time during the adventure you can SAVE your position on disk.
+   This is a particularly good idea if you're about to do something
+   dangerous (for example attacking someone).  When you do fail miserably
+   at whatever tickled your fancy you can always restore your position
+   with the LOAD command.
+
+   There are various abbreviations available for quicker typing:
+
+     X for EXAMINE object/thing/person
+     L for LOOK
+     I for INVENTORY of objects carried
+
+   Frequently used directions like NORTH, SOUTH,  EAST, WEST, UP and DOWN
+   can be shortened to N, S, E, W, U and D respectively.
+
+   The CONFIG program allows players to choose their own colours.  You do
+   not earn any extra points for bad taste.
+
+   The HINT command enables the player to be gently prodded in the right
+   direction with a hint (either subtle or sledgehammer) for the current
+   location.
+
+   Players of JACARANDA JIM will remember that I promised to fix their
+   plumbing, mow their lawn and complete other varied household chores.
+
+   I would like to take this opportunity to confirm that I will be around
+   next Tuesday to finish dusting the tortilla.
+
+   Be seeing you
+
+
+
+   GRAHAM CLULEY

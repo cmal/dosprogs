@@ -1,0 +1,106 @@
+EAMENU
+
+* Sample menu to demonstrate menu functions
+
+* The demo builds the Electric Astrolabe in pieces to illustrate the stars
+* rising and setting.  The astrolabe components are then added by fading the
+* appropriate colors in.  Finally, the Sun, ecliptic and rule are added just
+* as the Sun rises to show the sky shading.
+
+* Note: this is a fairly advanced menu but does contain a mixture of menu
+* commands to illustrate the forms.
+
+*^C /T +        *Remove comment * to activate trace
+K Q ^Z          *Quit on Q
+^Q 0            *Quiet mode
+D "4/15/1995" 0 *Select date when eqt = 0
+Z "6" 0         *Adler in zone 6
+T "15 30" 0     *Start at 3:30 PM
+^C /3 0,0,0     *Shading color to black
+^C /P 0000      *Everything off
+L "41 52" "90 00" " " 0  *Initialize location
+A 0             *Plate on
+X 0             *Shading on
+B 0             *Bright stars on
+@B 0            *Star dots
+^C /0 63,63,63   *BGC = White
+L "41 52" "90 00" " " 0
+W 0.1           *Draw black sky over white background
+F1 0            *Interval = 1 min
+F 80            *Run free for a while
+^C /1 0,0,0     *Black background
+^C /P 8200      *Horizon and Capricorn on
+F 40
+^C /P E208      *Add altitudes and azimuths
+^C /1 4,0,0     *Fade altitudes and azimuths by adjusting colors
+F 8             *Run for 8 time units
+^C /1 8,0,0     *Repeat with more color 1 until alt/az arcs fully visible
+F 8
+^C /1 12,0,0
+F 8
+^C /1 16,0,0
+F 8
+^C /1 20,0,0
+F 8
+^C /1 24,0,0
+F 8
+^C /1 28,0,0
+F 8
+^C /1 32,0,0
+F 8
+^C /1 36,0,0
+F 8
+^C /1 40,0,0
+F 8
+^C /1 44,0,0
+F 8
+^C /1 48,0,0
+F 8
+^C /1 52,0,0
+F 8
+^C /1 56,0,0
+F 8
+^C /1 60,0,0
+F 8
+^C /1 63,0,0
+F 80
+^C /P E38C      *Add Equator, Cancer, Meridian and E-W Lines
+F 80
+^C /P FF8C      *Add tropics and crepuscular arcs
+F 20
+^C /0 60,60,60  *Fade background from white to gray by adjusting colors
+F 8
+^C /0 56,56,56
+F 8
+^C /0 52,52,52
+F 8
+^C /0 48,48,48
+F 8
+^C /0 44,44,44
+F 8
+^C /0 40,40,40
+F 8
+^C /0 36,36,36
+F 8
+^C /0 32,32,32
+F 8
+^C /0 28,28,28
+F 8
+^C /0 24,24,24
+F 8
+^C /0 20,20,20
+F 8
+^C /0 18,16,18
+F 80
+S 0             *Stars on
+F 80
+^C /P FFFF      *Everything on
+@A 0            *Sun on
+P 0             *Planets on (only Sun appears due to preceding command)
+F 100
+E 0             *Ecliptic on
+F 100
+R 0             *Rule on
+F 100
+^Z
+

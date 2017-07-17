@@ -1,0 +1,8 @@
+C:
+CD\
+MD\ASTRO
+CD\ASTRO
+A:\
+COPY *.* C:\ASTRO
+ASTRO
+
