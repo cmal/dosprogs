@@ -1,0 +1,5 @@
+* masm
+
+汇编语言
+
+[[file:masm5/99.png][99.png]]
