@@ -1,3 +1,5 @@
 *.obj
 *.OBJ
 TODO.org
+*.exe
+*.EXE
