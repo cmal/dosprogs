@@ -1,10 +1,17 @@
-assume cs:code
+assume cs:code,ss:stack
         data segment
         db 'Welcome to masm!',0
         data ends
 
+        stack segment
+        dw 8 dup (0)
+        stack ends
+
         code segment
-start:  mov dh,8
+start:  mov ax,stack
+        mov ss,ax
+        mov sp,16
+        mov dh,8
         mov dl,3
         mov cl,2
         mov ax,data
